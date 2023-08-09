@@ -1,4 +1,4 @@
-import { useDeleteTask, useUpdateTask } from './quries';
+import { useDeleteTask, useUpdateTask } from './queries';
 
 const SingleItem = ({ item }) => {
   const { deleteTask, isLoadingDeleteTask } = useDeleteTask();

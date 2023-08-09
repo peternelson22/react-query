@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useCreatetasks } from './quries';
+import { useCreatetasks } from './queries';
 
 const Form = () => {
   const [newItemName, setNewItemName] = useState('');
