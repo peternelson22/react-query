@@ -1,6 +1,4 @@
 import SingleItem from './SingleItem';
-import { useQuery } from '@tanstack/react-query';
-import customFetch from './utils';
 import { useGetTasks } from './queries';
 
 const Items = () => {
